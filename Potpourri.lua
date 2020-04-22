@@ -1,17 +1,11 @@
 _addon.name = "Potpourri"
 _addon.author = "Darkdoom"
 
-res			= require 'resources'
+res	= require 'resources'
 packets	= require 'packets'
 files		= require 'files'
 texts		= require 'texts'
           require 'strings'
-          require 'actions'
-          require 'tables'
-          require 'sets'
-          require 'chat'
-          require 'pack'
-          require 'logger'
 config	= require('config')
 
 potpourri = 0
